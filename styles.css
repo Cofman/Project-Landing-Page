@@ -106,6 +106,7 @@ button {
     align-items: center;
     background-color: white;
     margin-top: 140px;
+    height: 500px;
 }
 
 .second_head {
@@ -141,4 +142,31 @@ button {
 .second_head_content_container_text {
     display: flex;
     justify-content: center;
+}
+
+.third {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_italic {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937; 
+    font-weight: 300;
+    width: 43%;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+footer {
+    display: flex;
+    margin: 0;
+    padding: 40px;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 18px;
 }
