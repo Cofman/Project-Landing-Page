@@ -172,6 +172,43 @@ button {
     width: 43%;
 }
 
+.fourth {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    color: white;
+    padding: 80px;
+}
+
+.fourth_content {
+    display: flex;
+    background-color: #3882F6;
+    width: 100%;
+    padding: 60px 120px;
+    border: none;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.fourth_content_left_up {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.fourth_content_left_down {
+    font-size: 18px;
+}
+
+.fourth_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth_button button {
+    border: solid 2px white;
+}
+
 footer {
     display: flex;
     margin: 0;
